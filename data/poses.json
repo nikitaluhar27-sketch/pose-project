@@ -1,0 +1,317 @@
+{
+  "categories": {
+    "girls": {
+      "title": "Girls Poses",
+      "description": "Discover elegant and stylish poses for girls",
+      "niches": {
+        "saree-poses": {
+          "title": "Saree Poses",
+          "description": "Traditional and modern poses perfect for saree photography",
+          "poses": [
+            {
+              "id": "saree-1",
+              "title": "Classic Saree Drape",
+              "image": "https://images.pexels.com/photos/33225625/pexels-photo-33225625.jpeg",
+              "alt": "Woman in elegant saree posing with classic drape, one hand on hip, gentle smile",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand straight with your feet slightly apart",
+                "Drape the saree pallu elegantly over your shoulder",
+                "Place one hand gently on your hip",
+                "Turn your body slightly to create a flattering angle",
+                "Look directly at the camera with a soft smile"
+              ],
+              "bodyLanguage": {
+                "posture": "Keep your back straight and shoulders relaxed",
+                "hands": "One hand on hip creates a natural curve, other hand can hold the pallu",
+                "expression": "Soft, confident smile works best",
+                "angle": "Slight 45-degree turn to the camera is most flattering"
+              },
+              "tags": ["traditional", "elegant", "classic", "saree"]
+            },
+            {
+              "id": "saree-2",
+              "title": "Walking Saree Pose",
+              "image": "https://images.pexels.com/photos/34211583/pexels-photo-34211583.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "alt": "Woman in colorful saree walking gracefully, saree flowing in motion",
+              "difficulty": "Intermediate",
+              "steps": [
+                "Take a gentle step forward",
+                "Let the saree flow naturally behind you",
+                "Look back over your shoulder",
+                "Keep your arms relaxed and natural",
+                "Capture the movement mid-stride"
+              ],
+              "bodyLanguage": {
+                "posture": "Lean slightly forward to show movement",
+                "hands": "Arms should swing naturally with the walk",
+                "expression": "Gentle smile or looking away creates elegance",
+                "angle": "Side profile with slight turn of head"
+              },
+              "tags": ["motion", "elegant", "dynamic", "saree"]
+            },
+            {
+              "id": "saree-3",
+              "title": "Sitting Saree Pose",
+              "image": "https://images.pexels.com/photos/8387170/pexels-photo-8387170.jpeg",
+              "alt": "Woman in saree sitting gracefully on steps, saree arranged beautifully around her",
+              "difficulty": "Beginner",
+              "steps": [
+                "Sit on a step or low surface",
+                "Arrange the saree pleats neatly around you",
+                "Keep your back straight",
+                "Place hands on your knees or lap",
+                "Look at the camera with a serene expression"
+              ],
+              "bodyLanguage": {
+                "posture": "Sit tall, don't slouch",
+                "hands": "Rest hands naturally on knees or hold the pallu",
+                "expression": "Calm, peaceful expression",
+                "angle": "Face camera directly or slight angle"
+              },
+              "tags": ["sitting", "graceful", "traditional", "saree"]
+            }
+          ]
+        },
+        "streetwear": {
+          "title": "Streetwear Poses",
+          "description": "Urban and trendy poses for street fashion photography",
+          "poses": [
+            {
+              "id": "streetwear-1",
+              "title": "Casual Street Stance",
+              "image": "https://images.pexels.com/photos/27408703/pexels-photo-27408703.jpeg",
+              "alt": "Girl in streetwear standing casually against urban backdrop, confident pose",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand with feet shoulder-width apart",
+                "Place one foot slightly forward",
+                "Hands in pockets or one hand on hip",
+                "Lean slightly against a wall or backdrop",
+                "Look directly at camera with confident expression"
+              ],
+              "bodyLanguage": {
+                "posture": "Relaxed but confident stance",
+                "hands": "Hands in pockets or one hand on hip",
+                "expression": "Cool, confident look",
+                "angle": "Slight lean creates casual vibe"
+              },
+              "tags": ["casual", "urban", "confident", "streetwear"]
+            },
+            {
+              "id": "streetwear-2",
+              "title": "Walking Street Pose",
+              "image": "https://images.pexels.com/photos/1808284/pexels-photo-1808284.jpeg",
+              "alt": "Girl in trendy streetwear walking confidently down urban street",
+              "difficulty": "Intermediate",
+              "steps": [
+                "Walk naturally down the street",
+                "Keep your stride confident",
+                "Look straight ahead or slightly to the side",
+                "Let your outfit flow with movement",
+                "Capture mid-stride for dynamic look"
+              ],
+              "bodyLanguage": {
+                "posture": "Upright, confident walk",
+                "hands": "Natural arm swing or hands in pockets",
+                "expression": "Neutral or slight smile",
+                "angle": "Side or three-quarter view"
+              },
+              "tags": ["motion", "urban", "dynamic", "streetwear"]
+            }
+          ]
+        },
+        "casual": {
+          "title": "Casual Poses",
+          "description": "Everyday poses for casual photography",
+          "poses": [
+            {
+              "id": "casual-1",
+              "title": "Natural Smile Pose",
+              "image": "https://images.pexels.com/photos/3309467/pexels-photo-3309467.jpeg",
+              "alt": "Girl with natural smile, casual outfit, relaxed pose",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand naturally with relaxed posture",
+                "Smile genuinely",
+                "Keep hands at your sides or one hand on hip",
+                "Make eye contact with camera",
+                "Think of something happy for natural expression"
+              ],
+              "bodyLanguage": {
+                "posture": "Relaxed and natural",
+                "hands": "Natural position, not forced",
+                "expression": "Genuine smile",
+                "angle": "Face camera directly"
+              },
+              "tags": ["casual", "natural", "smile", "everyday"]
+            }
+          ]
+        }
+      }
+    },
+    "boys": {
+      "title": "Boys Poses",
+      "description": "Stylish and confident poses for boys",
+      "niches": {
+        "casual": {
+          "title": "Casual Poses",
+          "description": "Relaxed and natural poses for everyday photography",
+          "poses": [
+            {
+              "id": "boys-casual-1",
+              "title": "Confident Stand",
+              "image": "https://images.pexels.com/photos/29945901/pexels-photo-29945901.jpeg",
+              "alt": "Young man standing confidently, casual outfit, hands in pockets",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand with feet shoulder-width apart",
+                "Place hands in pockets or one hand on hip",
+                "Keep shoulders back and relaxed",
+                "Look directly at camera",
+                "Maintain confident expression"
+              ],
+              "bodyLanguage": {
+                "posture": "Upright, confident stance",
+                "hands": "Hands in pockets or one hand on hip",
+                "expression": "Confident, approachable smile",
+                "angle": "Slight turn creates depth"
+              },
+              "tags": ["casual", "confident", "natural"]
+            },
+            {
+              "id": "boys-casual-2",
+              "title": "Leaning Pose",
+              "image": "https://images.pexels.com/photos/11094161/pexels-photo-11094161.jpeg",
+              "alt": "Young man leaning against wall, casual pose, relaxed expression",
+              "difficulty": "Beginner",
+              "steps": [
+                "Find a wall or surface to lean against",
+                "Lean with one shoulder",
+                "Cross arms or place one hand in pocket",
+                "Keep one leg slightly bent",
+                "Look at camera with relaxed expression"
+              ],
+              "bodyLanguage": {
+                "posture": "Relaxed lean, not slouching",
+                "hands": "Crossed arms or one hand in pocket",
+                "expression": "Relaxed, cool expression",
+                "angle": "Side angle with head turn to camera"
+              },
+              "tags": ["casual", "relaxed", "cool"]
+            }
+          ]
+        },
+        "formal": {
+          "title": "Formal Poses",
+          "description": "Professional and elegant poses for formal occasions",
+          "poses": [
+            {
+              "id": "boys-formal-1",
+              "title": "Professional Stand",
+              "image": "https://images.pexels.com/photos/5689163/pexels-photo-5689163.jpeg",
+              "alt": "Young man in formal attire standing professionally, confident posture",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand straight with feet together or slightly apart",
+                "Keep hands at sides or one hand in pocket",
+                "Shoulders back, chest out",
+                "Maintain professional expression",
+                "Look directly at camera"
+              ],
+              "bodyLanguage": {
+                "posture": "Upright, professional stance",
+                "hands": "At sides or one hand in pocket",
+                "expression": "Confident, professional smile",
+                "angle": "Face camera directly"
+              },
+              "tags": ["formal", "professional", "elegant"]
+            }
+          ]
+        }
+      }
+    },
+    "couples": {
+      "title": "Couples Poses",
+      "description": "Romantic and fun poses for couples photography",
+      "niches": {
+        "romantic": {
+          "title": "Romantic Poses",
+          "description": "Intimate and romantic poses for couples",
+          "poses": [
+            {
+              "id": "couples-romantic-1",
+              "title": "Forehead Touch",
+              "image": "https://images.pexels.com/photos/12802239/pexels-photo-12802239.jpeg",
+              "alt": "Couple touching foreheads, intimate romantic pose, gentle smiles",
+              "difficulty": "Beginner",
+              "steps": [
+                "Stand facing each other",
+                "Lean in and touch foreheads",
+                "Close your eyes or look into each other's eyes",
+                "Place hands on each other's arms or waist",
+                "Maintain gentle, loving expressions"
+              ],
+              "bodyLanguage": {
+                "posture": "Both partners lean in naturally",
+                "hands": "Gentle touch on arms, waist, or face",
+                "expression": "Soft, loving expressions",
+                "angle": "Side profile captures intimacy"
+              },
+              "tags": ["romantic", "intimate", "touching"]
+            },
+            {
+              "id": "couples-romantic-2",
+              "title": "Walking Together",
+              "image": "https://images.pexels.com/photos/35326692/pexels-photo-35326692.jpeg",
+              "alt": "Couple walking hand in hand, romantic sunset backdrop",
+              "difficulty": "Intermediate",
+              "steps": [
+                "Hold hands naturally",
+                "Walk at a comfortable pace",
+                "Look at each other or ahead",
+                "Keep stride synchronized",
+                "Capture the natural movement"
+              ],
+              "bodyLanguage": {
+                "posture": "Relaxed, natural walking",
+                "hands": "Interlocked fingers or holding hands",
+                "expression": "Happy, content expressions",
+                "angle": "Side or back view shows connection"
+              },
+              "tags": ["romantic", "motion", "together"]
+            }
+          ]
+        },
+        "fun": {
+          "title": "Fun Poses",
+          "description": "Playful and energetic poses for couples",
+          "poses": [
+            {
+              "id": "couples-fun-1",
+              "title": "Jumping Together",
+              "image": "https://images.pexels.com/photos/3034188/pexels-photo-3034188.jpeg",
+              "alt": "Couple jumping together in the air, joyful expressions, fun pose",
+              "difficulty": "Advanced",
+              "steps": [
+                "Hold hands or stand close together",
+                "Count down together",
+                "Jump simultaneously",
+                "Keep expressions joyful",
+                "Capture at peak of jump"
+              ],
+              "bodyLanguage": {
+                "posture": "Both jump with arms up",
+                "hands": "Holding hands or arms raised",
+                "expression": "Big smiles, joyful",
+                "angle": "Front or side view"
+              },
+              "tags": ["fun", "energetic", "playful"]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
