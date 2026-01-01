@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getAllCategories } from '@/lib/data';
 import CategoryCard from '@/components/CategoryCard';
 import SearchBar from '@/components/SearchBar';
+<link rel="canonical" href="https://photo-poses.vercel.app/" />
 
 export default function Home() {
   const categories = getAllCategories();
