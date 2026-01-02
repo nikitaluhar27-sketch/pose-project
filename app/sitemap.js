@@ -1,3 +1,4 @@
+import posesData from '@/data/poses.js';
 
 export default function sitemap() {
   const baseUrl = 'https://photo-poses.vercel.app/'; // Replace with your actual domain
