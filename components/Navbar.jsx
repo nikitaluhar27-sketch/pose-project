@@ -29,10 +29,21 @@ export default function Navbar() {
             >
               Couples
             </Link>
+            <Link
+              href="/about"
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors font-medium"
+            >
+              About
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors font-medium"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </div>
     </nav>
   );
 }
-
