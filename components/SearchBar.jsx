@@ -3,9 +3,7 @@
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 
-<head>
-  <link rel="canonical" href="https://photo-poses.vercel.app">
-</head>
+<link rel="canonical" href="https://photo-poses.vercel.app/" />
 
 export default function SearchBar() {
   const [query, setQuery] = useState('');

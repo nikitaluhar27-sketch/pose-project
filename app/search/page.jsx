@@ -3,9 +3,7 @@
 import { searchPoses } from '@/lib/data';
 import MasonryGrid from '@/components/MasonryGrid';
 import SearchBar from '@/components/SearchBar';
-<head>
-  <link rel="canonical" href="https://photo-poses.vercel.app">
-</head>
+<link rel="canonical" href="https://photo-poses.vercel.app/" />
 
 
 export async function generateMetadata({ searchParams }) {

@@ -4,9 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import StructuredData from "@/components/StructuredData";
 
-<head>
-  <link rel="canonical" href="https://photo-poses.vercel.app">
-</head>
+<link rel="canonical" href="https://photo-poses.vercel.app" />
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

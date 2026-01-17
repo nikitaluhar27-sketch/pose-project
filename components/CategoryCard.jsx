@@ -1,9 +1,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-<head>
-  <link rel="canonical" href="https://pose-project-arov.vercel.app/girls">
-</head>
+<link rel="canonical" href="https://photo-poses.vercel.app/" />
+  
 
 
 export default function CategoryCard({ category, slug }) {

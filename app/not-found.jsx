@@ -1,8 +1,6 @@
 
 import Link from 'next/link';
-<head>
-  <link rel="canonical" href="https://photo-poses.vercel.app">
-</head>
+  <link rel="canonical" href="https://photo-poses.vercel.app" />
 
 
 
