@@ -1,5 +1,10 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
+<head>
+  <link rel="canonical" href="https://pose-project-arov.vercel.app/girls">
+</head>
+
 
 export default function CategoryCard({ category, slug }) {
   const nicheCount = Object.keys(category.niches).length;

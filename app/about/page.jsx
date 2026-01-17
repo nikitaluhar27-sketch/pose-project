@@ -1,3 +1,7 @@
+<head>
+  <link rel="canonical" href="https://photo-poses.vercel.app">
+</head>
+
 export const metadata = {
   title: "About | Photo Poses Platform",
   description:

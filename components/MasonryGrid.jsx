@@ -4,6 +4,10 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+<head>
+  <link rel="canonical" href="https://photo-poses.vercel.app">
+</head>
+
 export default function MasonryGrid({ poses, columns = 3 }) {
   const [columnCount, setColumnCount] = useState(columns);
 

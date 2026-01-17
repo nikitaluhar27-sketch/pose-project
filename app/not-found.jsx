@@ -1,4 +1,10 @@
+
 import Link from 'next/link';
+<head>
+  <link rel="canonical" href="https://photo-poses.vercel.app">
+</head>
+
+
 
 export default function NotFound() {
   return (

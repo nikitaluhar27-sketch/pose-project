@@ -1,6 +1,12 @@
+
+
 import { searchPoses } from '@/lib/data';
 import MasonryGrid from '@/components/MasonryGrid';
 import SearchBar from '@/components/SearchBar';
+<head>
+  <link rel="canonical" href="https://photo-poses.vercel.app">
+</head>
+
 
 export async function generateMetadata({ searchParams }) {
   const { q } = await searchParams;
