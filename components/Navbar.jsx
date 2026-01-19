@@ -1,7 +1,5 @@
 import Link from 'next/link';
 
-<link rel="canonical" href="https://photo-poses.vercel.app/" />
-
 export default function Navbar() {
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">

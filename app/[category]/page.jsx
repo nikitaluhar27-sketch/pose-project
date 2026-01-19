@@ -1,27 +1,31 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getCategory } from '@/lib/data';
 import Image from 'next/image';
-<link rel="canonical" href="https://photo-poses.vercel.app/" />
+import { getCategory } from '@/lib/data';
 
 export async function generateMetadata({ params }) {
-  const { category } = await params;
+  const { category } = params;
   const categoryData = getCategory(category);
-  
+
   if (!categoryData) {
     return {
       title: 'Category Not Found',
     };
   }
 
+  const baseUrl = 'https://photo-poses.vercel.app';
+
   return {
     title: `${categoryData.title} - Photo Poses Platform`,
     description: categoryData.description,
+    alternates: {
+      canonical: `${baseUrl}/${category}`,
+    },
   };
 }
 
 export default async function CategoryPage({ params }) {
-  const { category } = await params;
+  const { category } = params;
   const categoryData = getCategory(category);
 
   if (!categoryData) {
@@ -47,6 +51,7 @@ export default async function CategoryPage({ params }) {
             const totalPoses = niche.poses.length;
             const firstPoseImage = niche.poses[0]?.image || '/default-pose.jpg';
             const firstPoseAlt = niche.poses[0]?.alt || niche.title;
+
             return (
               <Link
                 key={nicheSlug}
@@ -67,11 +72,15 @@ export default async function CategoryPage({ params }) {
                       <h2 className="text-2xl font-bold text-white mb-1">
                         {niche.title}
                       </h2>
-                      <p className="text-white/90 text-sm">{totalPoses} {totalPoses === 1 ? 'pose' : 'poses'}</p>
+                      <p className="text-white/90 text-sm">
+                        {totalPoses} {totalPoses === 1 ? 'pose' : 'poses'}
+                      </p>
                     </div>
                   </div>
                   <div className="p-6">
-                    <p className="text-gray-600 dark:text-gray-300">{niche.description}</p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      {niche.description}
+                    </p>
                   </div>
                 </div>
               </Link>
@@ -82,4 +91,3 @@ export default async function CategoryPage({ params }) {
     </div>
   );
 }
-

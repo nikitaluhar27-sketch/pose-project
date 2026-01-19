@@ -1,5 +1,5 @@
 
-  <link rel="canonical" href="https://photo-poses.vercel.app" />
+  <link rel="canonical" href="https://photo-poses.vercel.app/contact" />
 
 
 export const metadata = {
