@@ -19,6 +19,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${pose.title} - ${nicheData.title} | Photo Poses Platform`,
     description: `Learn how to pose: ${pose.title}. ${pose.steps[0]}. Difficulty: ${pose.difficulty}.`,
+    alternates: {
+      canonical: `https://photo-poses.vercel.app/${category}/${niche}/${poseId}`,
+    },
     openGraph: {
       images: [pose.image],
     },

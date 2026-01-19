@@ -16,9 +16,10 @@ export default function CategoryCard({ category, slug }) {
   const firstPose = firstNiche?.poses[0];
   const imageUrl = firstPose?.image || '/default-pose.jpg';
   const imageAlt = firstPose?.alt || category.title;
+  const canonicalUrl = `https://photo-poses.vercel.app/${slug}`;
 
   return (
-    <Link href={`/${slug}`} className="group block">
+    <Link href={`/${slug}`} className="group block" rel="canonical" data-canonical={canonicalUrl}>
       <div className="relative overflow-hidden rounded-xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
         <div className="relative h-64 bg-indigo-600 overflow-hidden">
           <Image

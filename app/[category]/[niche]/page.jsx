@@ -16,6 +16,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${nicheData.title} - ${categoryData.title} | Photo Poses Platform`,
     description: nicheData.description,
+    alternates: {
+      canonical: `https://photo-poses.vercel.app/${category}/${niche}`,
+    },
   };
 }
 
