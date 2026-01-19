@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getCategory } from '@/lib/data';
 import Image from 'next/image';
+<link rel="canonical" href="https://photo-poses.vercel.app/" />
 
 export async function generateMetadata({ params }) {
   const { category } = await params;
