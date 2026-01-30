@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "generate:favicons": "node scripts/generate-favicons.js"
   },
   "dependencies": {
     "next": "16.1.1",
+    "png-to-ico": "^3.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "react-masonry-css": "^1.0.16"
+    "react-masonry-css": "^1.0.16",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
