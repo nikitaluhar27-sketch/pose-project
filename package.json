@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate:favicons": "node scripts/generate-favicons.js"
+    "generate:favicons": "node scripts/generate-favicons.js",
+    "prepare:logos": "node scripts/prepare-logo.js",
+    "generate:all": "npm run prepare:logos && npm run generate:favicons"
   },
   "dependencies": {
     "next": "16.1.1",
